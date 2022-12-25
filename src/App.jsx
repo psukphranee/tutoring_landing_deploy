@@ -7,7 +7,7 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div className="w-full flex-col">
+    <div className="w-full flex-col text-black">
       {/* <Navbar /> */}
       <Hero />
       <About />
