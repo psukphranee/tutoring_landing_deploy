@@ -22,22 +22,22 @@ const Form = () => {
   }
 
   return (
-    <form onSubmit={handleSubmit} className='flex flex-col w-full p-2 max-w-2xl border-2 border-black'>
-        <div>
+    <form onSubmit={handleSubmit} className='flex flex-col w-full items-center p-2 max-w-2xl border-2 border-black'>
+        <div className='w-full'>
             <label>
             Name:
             <br/>
             <input type="text" name="name" onChange={handleChange} className='outline my-2 w-full'/>
             </label>
         </div>
-        <div>
+        <div className='w-full'>
             <label>
             Email:
             <br/>
             <input type="email" name="email" onChange={handleChange} className='outline my-2 w-full'/>
             </label>
         </div>
-        <div>
+        <div className='w-full'>
             <label>
             Message:
             <br/>
