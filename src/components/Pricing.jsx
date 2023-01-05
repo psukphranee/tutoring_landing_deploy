@@ -3,9 +3,9 @@ import { data } from '../data/data'
 
 const Pricing = () => {
   return (
-    <div className="">
+    <div className="w-full">
       {/* Pricing */}
-      <section className="m-2 p-2 bg-blue-100">
+      <section className="rounded-lg p-2 bg-blue-100" id='Pricing'>
         <div className='p-2 w-full bg-blue-200'>
             <h2 className="text-3xl font-bold text-center">Pricing</h2>
         </div>
