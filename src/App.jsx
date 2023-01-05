@@ -17,7 +17,7 @@ function App() {
           <Navbar />
         </div>
 
-        <div className='mx-6 my-4 flex flex-col items-center justify-start'>
+        <div className='mx-4 my-4 flex flex-col items-center justify-start'>
           <Hero/>
           <About/>
           <Services/>
