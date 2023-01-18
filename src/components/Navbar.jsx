@@ -11,14 +11,14 @@ const Navbar = () => {
   const [active, setActive] = useState("Home");
 
   return (
-      <nav>
+      <nav className='flex justify-end item-center px-2'>
       {/* web menu */}
-      <div className='hidden sm:flex flex-row justify-end'>
+      <div className='hidden sm:flex flex-row'>
         <ul className='flex flex-row'>
           {
             sections.map((item, index) => (
-                  <li key={index} className={`py-2 px-4`} >
-                    <a href={`#${item}`} onClick={() => setToggle((prev) => (!prev))}>{item}</a>
+                  <li key={index} className={`py-4 px-4`} >
+                    <a href={`#${item}`} className='text-white hover:text-orange-600' onClick={() => setToggle((prev) => (!prev))}>{item}</a>
                   </li>
                 ))
           }
@@ -26,12 +26,14 @@ const Navbar = () => {
       </div>
 
       {/* mobile menu */}
-      <div className='sm:hidden flex flex-1 border-3 border-dashed border-white justify-end'>
+      <div className='sm:hidden flex justify-end item-center'>
 
-        <div className='p-2 bg-black'>
-          <img src={toggle ? close : menu} alt="menu" className="w-[28px] h-[28px] object-contain" onClick={() => setToggle((prev) => (!prev))} />
+          {/* menu button */}
+        <div className='pr-4 rounded pt-4'>
+          <img src={toggle ? close : menu} alt="menu" className="w-[36px] h-[36px] object-contain" onClick={() => setToggle((prev) => (!prev))} />
         </div>
-
+          
+          {/* the menu that pops up */}
         <div
           className={`${
             !toggle ? "hidden" : "flex"

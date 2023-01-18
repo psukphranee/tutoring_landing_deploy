@@ -11,13 +11,13 @@ function App() {
 
     <div className="w-full overflow-hidden">
 
-      <div className="flex flex-col text-black m-4">
+      <div className="flex flex-col text-black">
 
-        <div className='mx-6 my-4'>
+        <div className='navContainer z-10'>
           <Navbar />
         </div>
 
-        <div className='mx-4 my-4 flex flex-col items-center justify-start'>
+        <div className='relative -top-14 flex flex-col items-center justify-start'>
           <Hero/>
           <About/>
           <Services/>

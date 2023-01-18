@@ -3,13 +3,16 @@
 @tailwind utilities;
 
 .hero {
-  background-image: url('../src/assets/manhattan_library_1.jpg');
-  background-size: cover;
-  background-position: bottom center;
+  background-image: url('../src/assets/jmm_background.jpg');
+  /* background-size: 100% ; */
+  background-position: center 70%;
   background-repeat: no-repeat;
-  height: 500px;
+  /* height: 100vh;  */
 }
 
+/* .navContainer{
+  height:;
+} */
 
 #root {
   width: 100%;

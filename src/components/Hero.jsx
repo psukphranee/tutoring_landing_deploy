@@ -3,12 +3,12 @@ import hero_image from "../assets/manhattan_library_1.jpg"
 
 const Hero = () => {
   return (
-    <div className="rounded-lg w-full my-2 p-2 bg-blue-100">
+    <div className="rounded-lg w-full bg-blue-100">
         {/* Introduction */}
-        <div className='hero'>
-            <header className="text-center py-16 px-4 mx-4 my-8">
-                <h1 className="text-4xl font-bold my-2">Math Tutoring Services</h1>
-                <p className="text-xl font-semibold">Expert help with math homework, exams, and more</p>
+        <div className='hero bg-cover flex h-screen'>
+            <header className="text-center py-16 px-4 m-auto">
+                <h1 className="text-4xl text-white font-bold my-2">Math Tutoring Services</h1>
+                <p className="text-xl text-white text-shadow-md font-semibold">Expert help with math homework, exams, and more</p>
             </header>
         </div>
     </div>
