@@ -25,7 +25,7 @@ const Navbar = () => {
         </ul>
       </div>
 
-      {/* mobile menu */}
+      {/* mobile menu edit */}
       <div className='sm:hidden flex justify-end item-center'>
 
           {/* menu button */}
