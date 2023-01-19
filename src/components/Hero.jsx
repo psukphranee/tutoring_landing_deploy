@@ -3,7 +3,7 @@ import React from 'react'
 
 const Hero = () => {
   return (
-    <div className="rounded-lg w-full bg-black">
+    <div className="hero rounded-lg w-full bg-black">
         {/* Introduction */}
         <div className='bg-cover flex h-screen'>
             <header className="text-center py-16 px-4 m-auto">
