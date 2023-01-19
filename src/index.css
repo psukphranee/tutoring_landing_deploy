@@ -3,16 +3,12 @@
 @tailwind utilities;
 
 .hero {
-  background-image: url('../src/assets/jmm_background.jpg');
-  /* background-size: 100% ; */
+  background-image: url('/src/assets/jmm_background.jpg');
+  background-size: 100% ;
   background-position: center 70%;
   background-repeat: no-repeat;
   /* height: 100vh;  */
 }
-
-/* .navContainer{
-  height:;
-} */
 
 #root {
   width: 100%;
