@@ -1,11 +1,16 @@
 import React, { useState } from 'react';
 
 function ContactForm() {
+
+  const headers = new Headers();
+
   const [formData, setFormData] = useState({
     senderName: '',
     senderEmail: '',
     message: ''
   });
+
+  const [resultFromServer, updateResultFromServer] = useState('init');
 
   const handleChange = (event) => {
     setFormData({
@@ -16,29 +21,22 @@ function ContactForm() {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-
-    const bodySend = {
-      "senderName": formData.senderName,
-      "senderEmail": formData.senderEmail,
-      "message": formData.message
-    }
-
-    JSON.stringify(bodySend);
-
-    // Make the POST request
-    fetch('https://1pmu7gfk1m.execute-api.us-west-1.amazonaws.com/default', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-      },
-      body: bodySend
-    })
+    
+    fetch('https://i2eql7miah.execute-api.us-west-1.amazonaws.com/default/mail_fwd_js', 
+      {
+        'method' : 'post',
+        'data' : formData
+      })
     .then(response => response.json())
     .then(data => {
-      console.log('Success:', data);
+      const buffer = JSON.stringify(data);
+      console.log('Success:', buffer);
+      updateResultFromServer(buffer);
     })
     .catch(error => {
-      console.error('Error:', error);
+      const buffer = JSON.stringify(error);
+      console.error('Error:', buffer);
+      updateResultFromServer(buffer);
     });
   }
 
@@ -68,6 +66,7 @@ function ContactForm() {
         onChange={handleChange}
       ></textarea>
       <button type="submit">Send</button>
+      <p>{resultFromServer}</p>
     </form>
   );
 }
