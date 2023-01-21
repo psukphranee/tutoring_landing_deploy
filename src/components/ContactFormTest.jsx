@@ -5,9 +5,9 @@ function ContactForm() {
   const headers = new Headers();
 
   const [formData, setFormData] = useState({
-    senderName: '',
-    senderEmail: '',
-    message: ''
+    senderName: 'name',
+    senderEmail: 'email@email.com',
+    message: 'message content'
   });
 
   const [resultFromServer, updateResultFromServer] = useState('init');
@@ -22,21 +22,25 @@ function ContactForm() {
   const handleSubmit = (event) => {
     event.preventDefault();
     
-    fetch('https://i2eql7miah.execute-api.us-west-1.amazonaws.com/default/mail_fwd_js', 
+    fetch('https://lssystemog.execute-api.us-west-1.amazonaws.com/mail_fwd_js', 
       {
-        'method' : 'post',
-        'data' : formData
+        method : 'POST',
+        body: JSON.stringify({
+          senderEmail: formData.senderEmail,
+          message: formData.message,
+          senderName: formData.senderName
+       })
       })
     .then(response => response.json())
     .then(data => {
       const buffer = JSON.stringify(data);
-      console.log('Success:', buffer);
-      updateResultFromServer(buffer);
+      console.log('Success:', data);
+      // updateResultFromServer(data);
     })
     .catch(error => {
       const buffer = JSON.stringify(error);
-      console.error('Error:', buffer);
-      updateResultFromServer(buffer);
+      console.error('Error:', error);
+      // updateResultFromServer(error);
     });
   }
 
