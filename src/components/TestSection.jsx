@@ -1,7 +1,6 @@
 import React from 'react'
 import {data} from '../data/data.js'
-import Form from './Form.jsx'
-import ContactForm from './ContactFormTest.jsx'
+import ContactForm from './ContactForm.jsx'
 
 const TestSection = () => {
 

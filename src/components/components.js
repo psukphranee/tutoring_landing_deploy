@@ -5,8 +5,7 @@ import Services from "./Services";
 import Pricing from "./Pricing";
 import TestSection from "./TestSection";
 import Contact from "./Contact";
-import Form from "./Form";
-import ContactForm from "./ContactFormTest";
+import ContactForm from "./ContactForm";
 
 export {
     Hero,
@@ -16,6 +15,5 @@ export {
     Pricing,
     TestSection,
     Contact,
-    Form,
     ContactForm
 }

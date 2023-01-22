@@ -10,20 +10,17 @@ function App() {
   return (
 
     <div className="w-full overflow-hidden">
-
       <div className="flex flex-col text-black">
-
         <div className='navContainer z-10'>
           <Navbar />
         </div>
-
         <div className='relative -top-14 flex flex-col items-center justify-start'>
           <Hero/>
           <About/>
           <Services/>
           <Pricing/>
-          {/* <Contact/> */}
-          <TestSection/>
+          <Contact/>
+          {/* <TestSection/> */}
         </div>
       </div>
     </div>
