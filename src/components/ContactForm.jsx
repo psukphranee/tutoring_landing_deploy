@@ -76,7 +76,7 @@ const ContactForm = () => {
           >
           </textarea>
         <button type="submit" 
-          className="bg-blue-500 w-1/2 py-2 mt-2 text-white"
+          className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 mt-2 rounded"
           onClick={(e) => {changeSent('Sending...')}}
           >
           {isSent}

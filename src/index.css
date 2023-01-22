@@ -10,6 +10,12 @@
   height: 100vh; 
 }
 
+@media only screen {
+  .hero {
+    background-size: cover;
+  }
+}
+
 #root {
   width: 100%;
   height: 100%;
