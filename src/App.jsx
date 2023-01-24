@@ -18,8 +18,8 @@ function App() {
           <Hero/>          
           <Services/>
           <Pricing/>
-          <About/>
           <Contact/>
+          <About/>
           {/* <TestSection/> */}
         </div>
       </div>

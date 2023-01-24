@@ -15,12 +15,12 @@
   background-size: 100% ;
   background-position: center 100%;
   background-repeat: no-repeat;
-  height: 100vh; 
-  opacity: .75;
+  min-height: 100vh; 
+  opacity: 1;
 }
 
 .textShadow {
-  text-shadow: #FC0 1px 0 10px;
+  text-shadow: rgb(255, 255, 255) 1px 0 10px;
 }
 
 .about {
@@ -39,6 +39,10 @@
   .services-bg {
     background-size: cover;
   }
+}
+
+input{
+  padding: 8px;
 }
 
 #root {
