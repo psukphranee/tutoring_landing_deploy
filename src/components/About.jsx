@@ -12,6 +12,9 @@
   }
   ```
 */
+
+import self_img from '/src/assets/self.jpg'
+
 const people = [
   {
     name: 'Panya Sukphranee',
