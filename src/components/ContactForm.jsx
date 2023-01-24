@@ -15,8 +15,9 @@
   */
 
   import { useState } from "react";
+  import library from '../assets/manhattan_library_1.jpg';
 
-  export default function Example() {
+  export default function ContactForm() {
   
     const headers = new Headers();
     const endpoint = 'https://lssystemog.execute-api.us-west-1.amazonaws.com/mail_fwd_js'
@@ -72,8 +73,8 @@
         <div className="lg:absolute lg:inset-0">
           <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
             <img
-              className="h-56 w-full object-cover lg:absolute lg:h-full"
-              src="https://images.unsplash.com/photo-1556761175-4b46a572b786?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1567&q=80"
+              className="hidden lg:block w-full object-cover lg:absolute lg:h-full"
+              src={library}
               alt=""
             />
           </div>

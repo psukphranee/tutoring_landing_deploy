@@ -17,7 +17,7 @@ function App() {
         <div className='relative -top-14 flex flex-col items-center justify-start'>
           <Hero/>          
           <Services/>
-          <Pricing/>
+          {/* <Pricing/> */}
           <Contact/>
           <About/>
           {/* <TestSection/> */}
