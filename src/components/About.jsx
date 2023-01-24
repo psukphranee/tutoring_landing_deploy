@@ -13,14 +13,14 @@
   ```
 */
 
-import self_img from '/src/assets/self.jpg'
+import self_img from '../assets/self.jpg'
 
 const people = [
   {
     name: 'Panya Sukphranee',
     role: 'Math Instructor - Test Prep Specialization',
     imageUrl:
-      '/src/assets/self.jpg',
+      self_img,
     bio: 'Graduate Teaching Associate at San Francisco State University. Math Teacher at C2 Education. Test preparation in SAT, ACT, AP Calculus AB/BC. Courses in Intermediate Algebra, Pre-Calculus, Calculus I Recitiation.',
     twitterUrl: '#',
     linkedinUrl: '#',
