@@ -15,10 +15,10 @@ function App() {
           <Navbar />
         </div>
         <div className='relative -top-14 flex flex-col items-center justify-start'>
-          <Hero/>
-          <About/>
+          <Hero/>          
           <Services/>
           <Pricing/>
+          <About/>
           <Contact/>
           {/* <TestSection/> */}
         </div>

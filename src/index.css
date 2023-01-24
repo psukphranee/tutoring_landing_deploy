@@ -10,8 +10,33 @@
   height: 100vh; 
 }
 
+.services-bg {
+  background-image: url('/src/assets/board_hss.jpg');
+  background-size: 100% ;
+  background-position: center 100%;
+  background-repeat: no-repeat;
+  height: 100vh; 
+  opacity: .75;
+}
+
+.textShadow {
+  text-shadow: #FC0 1px 0 10px;
+}
+
+.about {
+  background-image: url('/src/assets/jmm_group.jpg');
+  background-size: 100% ;
+  background-position: center 70%;
+  background-repeat: no-repeat;
+  height: 100vh; 
+}
+
 @media only screen {
   .hero {
+    background-size: cover;
+  }
+
+  .services-bg {
     background-size: cover;
   }
 }
