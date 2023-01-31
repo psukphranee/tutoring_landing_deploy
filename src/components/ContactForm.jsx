@@ -1,18 +1,3 @@
-/*
-  This example requires some changes to your config:
-  
-  ```
-  // tailwind.config.js
-  module.exports = {
-    // ...
-    plugins: [
-      // ...
-      require('@tailwindcss/forms'),
-    ],
-  }
-  ```
-
-  */
 
   import { useState } from "react";
   import library from '../assets/manhattan_library_1.jpg';
@@ -47,13 +32,16 @@
       fetch(endpoint, 
         {
           method : 'POST',
-          body: JSON.stringify({
-            senderEmail: formData.senderEmail,
-            senderMessage: formData.message,
-            senderFirstName: formData.senderFirstName,
-            senderLastName: formData.senderLastName,
-            senderPhone: formData.senderPhone
-         })
+          body: JSON.stringify(
+          //   {
+          //   senderEmail: formData.senderEmail,
+          //   senderMessage: formData.senderMessage,
+          //   senderFirstName: formData.senderFirstName,
+          //   senderLastName: formData.senderLastName,
+          //   senderPhone: formData.senderPhone
+          // }
+          formData
+         )
         })
       .then(response => response.json())
       .then(data => {

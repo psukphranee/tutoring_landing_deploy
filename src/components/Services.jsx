@@ -1,4 +1,5 @@
 import { BoltIcon, EnvelopeIcon, GlobeAltIcon, ScaleIcon } from '@heroicons/react/24/outline'
+import {data} from '/src/data/data.js'
 
 const features = [
   {
@@ -23,7 +24,7 @@ const features = [
     description:
       "Mathematics is not just a collection of random symbols, but a perspective on the universe and our existence. It is a way of understanding the world around us and the patterns that govern it. See math as the beautiful and elegant tool that it is, invented to deal with the realities of the universe. The discoveries of the universe lead to math and math leads to more discoveries, creating a feedback loop of understanding and exploration. Unlock the artistic side of math and see the beauty in its complexity.",
     icon: EnvelopeIcon,
-  },
+  }
 ]
 
 export default function Services() {
