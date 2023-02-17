@@ -6,6 +6,8 @@ import Pricing from "./Pricing";
 import TestSection from "./TestSection";
 import Contact from "./Contact";
 import ContactForm from "./ContactForm";
+import DropDown from "./ContactFormAssets/DropDown";
+import InputField from "./ContactFormAssets/InputField";
 
 export {
     Hero,
@@ -15,5 +17,7 @@ export {
     Pricing,
     TestSection,
     Contact,
-    ContactForm
+    ContactForm,
+    DropDown,
+    InputField
 }
