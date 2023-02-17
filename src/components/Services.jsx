@@ -4,25 +4,25 @@ import {data} from '/src/data/data.js'
 const features = [
   {
     name: 'Confidence',
-    description: "Confidence is key to unlocking your math potential. You'll learn to approach math problems with a positive mindset and the ability to recover from inevitable failures and roadblocks, because it's not about falling but about getting up. With increased confidence, you'll be able to tackle any math challenge that comes your way.",
+    description: "Learn to approach math problems with a positive mindset and develop grit to recover from inevitable failures and roadblocks of problem solving.",
     icon: GlobeAltIcon,
   },
   {
     name: 'Mental Math',
     description:
-      "Develop the abillity to solve complex math problems in your head. We use a pencil and paper approach to increase your skill level and speed, while also incorporating proven mental techniques that have been developed through research in math education and years of experience. We believe that the traditional pencil and paper approach to mathematics is irreplaceable and cannot be replaced by technology", 
+      "Develop the abillity to solve math problems mentally. Incorporate proven mental techniques that have been developed through research in math education and experience.", 
     icon: ScaleIcon,
   },
   {
     name: 'Intuition',
     description:
-      "Unlock your potential to understand the underlying concepts and connections in mathematical statements. We will help you develop the intuition to see beyond the dense notation of equations and understand their underlying meaning. Equations are the foundation of STEM and contain information about the behavior of the world around us. They tell us what is possible and what is not, and allow us to make predictions from what we know. With our help, you will be able to unlock the hidden insights and understand the true power of math.",
+      "Understand the underlying concepts expressed by mathematical statements. Guidance and practice towards developing intuition.",
     icon: BoltIcon,
   },
   {
     name: 'Art',
     description:
-      "Mathematics is not just a collection of random symbols, but a perspective on the universe and our existence. It is a way of understanding the world around us and the patterns that govern it. See math as the beautiful and elegant tool that it is, invented to deal with the realities of the universe. The discoveries of the universe lead to math and math leads to more discoveries, creating a feedback loop of understanding and exploration. Unlock the artistic side of math and see the beauty in its complexity.",
+      "Mathematics is an expression of our existence. It is a way of understanding the world around us and the patterns that govern it. See math as the beautiful and elegant tool that it is.",
     icon: EnvelopeIcon,
   }
 ]
