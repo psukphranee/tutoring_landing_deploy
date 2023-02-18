@@ -21,7 +21,7 @@ const people = [
     role: 'Math Instructor - Test Prep Specialization',
     imageUrl:
       self_img,
-    bio: "As a Math Instructor at San Francisco State University, I teach Pre-Calculus and Calculus I Lab, and also grade upper division courses in Real Analysis I (Advanced Calculus) and Modern Algebra. In addition, I am a Math Teacher at C2 Education where I focus on test preparation, including SAT Math, ACT Math, and AP Calculus AB/BC. I have worked with students from public and private schools throughout the SF Bay Area and Southern California, including many notable institutions.",
+    bio: "As a Math Instructor at San Francisco State University, I teach Pre-Calculus and Calculus I Lab, and also a TA for upper division courses in Real Analysis I (Advanced Calculus) and Modern Algebra. In addition, I am a Math Teacher at C2 Education where I focus on test preparation, including SAT Math, ACT Math, and AP Calculus AB/BC. I have worked with students from public and private schools throughout the SF Bay Area and Southern California, including many notable institutions.",
     twitterUrl: '#',
     linkedinUrl: '#',
   },
