@@ -8,6 +8,9 @@ import Contact from "./Contact";
 import ContactForm from "./ContactForm";
 import DropDown from "./ContactFormAssets/DropDown";
 import InputField from "./ContactFormAssets/InputField";
+import TestComponent from './TestComponent'
+import HowItWorks from './HowItWorks'
+import CardHIW from './CardHIW'
 
 export {
     Hero,
@@ -19,5 +22,8 @@ export {
     Contact,
     ContactForm,
     DropDown,
-    InputField
+    InputField,
+    CardHIW,
+    HowItWorks,
+    TestComponent
 }

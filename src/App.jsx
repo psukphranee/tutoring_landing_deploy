@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import styles from './styles'
-import {About, Hero, Navbar, Services, Pricing, Contact, TestSection} from './components/components'
+import {  About, Hero, Navbar, Services, Pricing, Contact, TestSection, HowItWorks } from './components/components'
 
 function App() {
 
@@ -16,11 +16,11 @@ function App() {
         </div>
         <div className='relative -top-14 flex flex-col items-center justify-start'>
           <Hero/>          
-          <Services/>
+          {/* <Services/> */}
           {/* <Pricing/> */}
-          <Contact/>
-          <About/>
-          {/* <TestSection/> */}
+          {/* <Contact/> */}
+          {/* <About/> */}
+          <HowItWorks/>
         </div>
       </div>
     </div>
