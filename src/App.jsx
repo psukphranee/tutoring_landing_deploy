@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import styles from './styles'
-import {About, Hero, Navbar, Services, Pricing, Contact, TestSection} from './components/components'
+import {  About, Hero, Navbar, Services, Pricing, Contact, TestSection, HowItWorks } from './components/components'
 
 function App() {
 
@@ -18,9 +18,9 @@ function App() {
           <Hero/>          
           <Services/>
           {/* <Pricing/> */}
+          <HowItWorks/>
           <Contact/>
           <About/>
-          {/* <TestSection/> */}
         </div>
       </div>
     </div>
