@@ -16,11 +16,11 @@ function App() {
         </div>
         <div className='relative -top-14 flex flex-col items-center justify-start'>
           <Hero/>          
-          {/* <Services/> */}
+          <Services/>
           {/* <Pricing/> */}
-          {/* <Contact/> */}
-          {/* <About/> */}
           <HowItWorks/>
+          <Contact/>
+          <About/>
         </div>
       </div>
     </div>
