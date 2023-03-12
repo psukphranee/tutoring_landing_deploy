@@ -11,6 +11,8 @@ import InputField from "./ContactFormAssets/InputField";
 import TestComponent from './TestComponent'
 import HowItWorks from './HowItWorks'
 import CardHIW from './CardHIW'
+import Subjects from "./Subjects";
+import Location from "./Location";
 
 export {
     Hero,
@@ -25,5 +27,7 @@ export {
     InputField,
     CardHIW,
     HowItWorks,
-    TestComponent
+    TestComponent,
+    Subjects,
+    Location
 }
