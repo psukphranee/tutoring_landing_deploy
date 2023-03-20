@@ -28,8 +28,13 @@ const features = [
 ]
 
 export default function Subjects() {
+
+  const scrollToServices = () => {
+    document.getElementById('Location').scrollIntoView({behavior: "smooth"})
+  }
+
   return (
-    <div className="bg-white py-24 sm:py-32">
+    <div className="bg-white py-24 sm:py-32" id="Subjects">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-3">
           <div>
@@ -52,6 +57,13 @@ export default function Subjects() {
             ))}
           </dl>
         </div>
+      </div>
+      <div className="flex justify-center py-4">
+        <button 
+                onClick={scrollToServices}
+                className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
+                Learn More
+        </button>
       </div>
     </div>
   )

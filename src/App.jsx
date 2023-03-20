@@ -15,13 +15,13 @@ function App() {
           <Navbar />
         </div>
         <div className='relative -top-14 flex flex-col items-center justify-start'>
-          <Hero/>          
-          <Subjects/>
-          <Location/>
-          <HowItWorks/>
-          <Services/>
-          <Contact/>
-          <About/>
+          <Hero order={1}/>          
+          <Subjects order={2}/>
+          <Location order={3}/>
+          <HowItWorks order={4}/>
+          <Services order={5}/>
+          <Contact order={6}/>
+          <About order={7}/>
         </div>
       </div>
     </div>

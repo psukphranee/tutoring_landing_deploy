@@ -5,7 +5,7 @@ import { useRef } from 'react'
 const Hero = () => {
 
   const scrollToServices = () => {
-    document.getElementById('HowItWorks').scrollIntoView({behavior: "smooth"})
+    document.getElementById('Subjects').scrollIntoView({behavior: "smooth"})
   }
 
   return (
