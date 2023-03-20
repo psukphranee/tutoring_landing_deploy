@@ -1,6 +1,6 @@
 
-  import { useState, useEffect } from "react";
-  import library from '../assets/manhattan_library_1.jpg';
+import { useState, useEffect } from "react";
+import library from '../assets/manhattan_library_1.jpg';
 import { InputField } from "./components";
 
   export default function ContactForm() {
@@ -94,8 +94,7 @@ import { InputField } from "./components";
             <div className="mx-auto max-w-md sm:max-w-lg lg:mx-0">
               <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Let's work together</h2>
               <p className="mt-4 text-lg text-gray-500 sm:mt-3">
-                We’d love to hear from you! Send us a message using the form opposite, or email us. We’d love to hear from
-                you! Send us a message using the form opposite, or email us.
+                Fill out the form below with some preliminary information.
               </p>
               
               <form onSubmit={handleSubmit} className="mt-9 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8">
@@ -193,6 +192,9 @@ import { InputField } from "./components";
                 </div>
 
                 <fieldset className="space-y-5">
+                  <label htmlFor="location" className="block text-sm font-medium text-gray-700">
+                    Interested Services
+                  </label>
                   <legend className="sr-only">Notifications</legend>
                   <div className="relative flex items-start">
                     <div className="flex h-5 items-center">
@@ -263,7 +265,7 @@ import { InputField } from "./components";
                 <div className="sm:col-span-2">
                   <div className="flex justify-between">
                     <label htmlFor="how-can-we-help" className="block text-sm font-medium text-gray-700">
-                      How can we help you?
+                      Addtional Comments
                     </label>
                     <span id="how-can-we-help-description" className="text-sm text-gray-500">
                       Max. 500 characters
