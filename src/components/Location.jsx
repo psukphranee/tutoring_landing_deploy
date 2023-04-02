@@ -16,14 +16,14 @@ export default function Location() {
             <div className="mx-auto w-full max-w-xl lg:mx-0">
               <h2 className="text-3xl font-bold tracking-tight text-white">Online Tutoring, Teaching, and Consultations</h2>
               <p className="mt-6 text-lg leading-8 text-gray-300">
-                With online tutoring and consultations, you can access quality educational resources from the comfort of your own home. Using online platforms such as Google Meet and Zoom and the built-in whiteboard features, enjoy engaging and interactive sessions tailored to your individual learning style and goals.
+                With online tutoring and consultations, you can access quality educational resources from the comfort of your own home. Using online platforms such as Google Meet and Zoom and the built-in whiteboard features, enjoy engaging and interactive sessions tailored to your individual learning style and goals. Choose from a variety of platforms such as Khan Academy. 
               </p>
               <div className="mt-8 flex items-center gap-x-6">
                 <button
                   onClick={scrollToServices}
                   className="rounded-md bg-indigo-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500"
                 >
-                  Contact us
+                  Contact me
                 </button>
               </div>
             </div>

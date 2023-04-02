@@ -3,26 +3,26 @@ import {data} from '/src/data/data.js'
 
 const features = [
   {
-    name: 'Confidence',
-    description: "Learn to approach math problems with a positive mindset and develop grit to recover from inevitable failures and roadblocks of problem solving.",
+    name: 'Experience',
+    description: "Being able to gauge students' understanding and identify potential question comes with experience. Effective ordering and presentation topics is crucial. And often times, a student learning new material is not able to formulate into words the complex processes the brain is undergoing. Just like the pieces of a puzzle, where the next piece depends on the one already in place.",
     icon: GlobeAltIcon,
   },
   {
-    name: 'Mental Math',
+    name: 'Passion',
     description:
-      "Develop the abillity to solve math problems mentally. Incorporate proven mental techniques that have been developed through research in math education and experience.", 
+      "Teaching is a vital role in society. It's not a job. It's not business. Teaching math is passing down millenia worth of knowledge to the next generations. Math is a description of the universe and the existence from the perspective of logic. Many out there can juggle symbols but deep understadning is what we strive for. ", 
     icon: ScaleIcon,
   },
   {
-    name: 'Intuition',
+    name: "Hassle Free",
     description:
-      "Understand the underlying concepts expressed by mathematical statements. Guidance and practice towards developing intuition.",
+      "Client satisfaction is top priority, and almost every student walks away feeling satisfied. However, it's a fact  that each student is unique and may have different expectations or preferences. What may seem minor to one person may be a major concern for another. To ensure that every client feels comfortable and heard in all aspects, the option to disconnect is respected. Your feedback is always welcome and valued, and we are committed to continuously improving and adapting services.",
     icon: BoltIcon,
   },
   {
-    name: 'Art',
+    name: 'Education First',
     description:
-      "Mathematics is an expression of our existence. It is a way of understanding the world around us and the patterns that govern it. See math as the beautiful and elegant tool that it is.",
+      "Like any other industry, the field of education has different tiers of service providers, ranging from trash to exceptional. Our goal is to be exceptional. To determine the quality of a service, look at the people behind it. Are they knowledgeable and experienced educators? Do they have a passion for teaching? Unfortunately, some providers are run by unqualified individuals who see education as a commodity and undermine the value of education.",
     icon: EnvelopeIcon,
   }
 ]
@@ -57,7 +57,7 @@ export default function Services() {
 
           <div className="relative lg:grid lg:grid-cols-3 lg:gap-x-12 xl:gap-x-16 bg-white p-4 opacity-90">
             <div className="lg:col-span-1">
-              <h2 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-4xl textShadow">Unlock you math potential.</h2>
+              <h2 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-4xl textShadow">What's the Difference</h2>
             </div>
             <dl className="mt-20 grid grid-cols-1 gap-16 sm:grid-cols-2 sm:gap-x-12 lg:col-span-2 lg:mt-0">
               {features.map((feature) => (
