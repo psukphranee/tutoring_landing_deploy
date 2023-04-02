@@ -19,7 +19,7 @@ function App() {
           <Subjects order={2}/>
           <Location order={3}/>
           <HowItWorks order={4}/>
-          <Services order={5}/>
+          {/* <Services order={5}/> */}
           <Contact order={6}/>
           <About order={7}/>
         </div>

@@ -98,9 +98,9 @@ import { InputField } from "./components";
               </p>
               
               <form onSubmit={handleSubmit} className="mt-9 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8">
-                <div>
+                <div className="sm:col-span-2"> 
                   <label htmlFor="first-name" className="block text-sm font-medium text-gray-700">
-                    First name
+                    Name
                   </label>
                   <div className="mt-1">
                     <input
@@ -108,14 +108,13 @@ import { InputField } from "./components";
                       name="senderFirstName"
                       id="first-name"
                       autoComplete="given-name"
-                      placeholder="Your first name"
                       value={formData.senderFirstName}
                       onChange={handleChange}
                       className="block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
                     />
                   </div>
                 </div>
-                <div>
+                {/* <div>
                   <label htmlFor="last-name" className="block text-sm font-medium text-gray-700">
                     Last name
                   </label>
@@ -131,7 +130,7 @@ import { InputField } from "./components";
                       className="block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
                     />
                   </div>
-                </div>
+                </div> */}
                 <div className="sm:col-span-2">
                   <label htmlFor="email" className="block text-sm font-medium text-gray-700">
                     Email
@@ -149,7 +148,7 @@ import { InputField } from "./components";
                   </div>
                 </div>
                 
-                <div className="sm:col-span-2">
+                {/* <div className="sm:col-span-2">
                   <div className="flex justify-between">
                     <label htmlFor="phone" className="block text-sm font-medium text-gray-700">
                       Phone
@@ -170,7 +169,7 @@ import { InputField } from "./components";
                       className="block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
                     />
                   </div>
-                </div>
+                </div> */}
                 <div>
                   <label htmlFor="location" className="block text-sm font-medium text-gray-700">
                     Current Math
@@ -196,6 +195,7 @@ import { InputField } from "./components";
                     Interested Services
                   </label>
                   <legend className="sr-only">Notifications</legend>
+                  
                   <div className="relative flex items-start">
                     <div className="flex h-5 items-center">
                       <input
