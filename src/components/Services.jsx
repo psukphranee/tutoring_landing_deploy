@@ -22,7 +22,7 @@ const features = [
   {
     name: 'Education First',
     description:
-      "Like any other industry, the field of education has different tiers of service providers, ranging from trash to exceptional. Our goal is to be exceptional. To determine the quality of a service, look at the people behind it. Are they knowledgeable and experienced educators? Do they have a passion for teaching? Unfortunately, some providers are run by unqualified individuals who see education as a commodity and undermine the value of education.",
+      "Like any other industry, the field of education has different tiers of service, ranging from run-of-the-mill operations to highly-engaging. Some providers are run by underqualified individuals who see education as a commodity.",
     icon: EnvelopeIcon,
   }
 ]
