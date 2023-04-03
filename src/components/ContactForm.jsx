@@ -2,6 +2,8 @@
 import { useState, useEffect } from "react";
 import library from '../assets/manhattan_library_1.jpg';
 import { InputField } from "./components";
+import { Helmet } from "react-helmet";
+
 
   export default function ContactForm() {
   
@@ -80,6 +82,16 @@ import { InputField } from "./components";
   
     return (
       <div className="relative">
+        <Helmet>
+        <script src="https://www.google.com/recaptcha/enterprise.js?render=6Lf32kUlAAAAAIKqSqchnE5SOYoRrdcAjo124hCx"></script>
+        <script>
+        grecaptcha.enterprise.ready(function() {
+            grecaptcha.enterprise.execute('6Lf32kUlAAAAAIKqSqchnE5SOYoRrdcAjo124hCx', {action: 'login'}).then(function(token) {
+              ...
+            });
+        });
+        </script>
+        </Helmet>
         <div className="lg:absolute lg:inset-0">
           <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
             <img
