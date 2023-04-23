@@ -18,10 +18,11 @@ function App() {
           <Hero order={1}/>          
           <Subjects order={2}/>
           <Location order={3}/>
-          <HowItWorks order={4}/>
-          <Services order={5}/>
-          <Contact order={6}/>
-          <About order={7}/>
+          {/* <HowItWorks order={4}/> */}
+          {/* <Services order={4}/> */}
+          <Contact order={4}/>
+          <About order={5}/>
+          <TestSection />
         </div>
       </div>
     </div>

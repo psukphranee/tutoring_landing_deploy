@@ -46,10 +46,10 @@ const data = {
           name: 'Physics 102 - AP Physics C Electricity and Magnetism',
           description: "Electricity and magnetism (electricforces, electric fields, potential, magnetism, magnetic forces and fields, capacitance, resistance, inductance, DC and AC circuits, and other topics) at the beginning calculus level of mathematics",
         },
-        {
-          name: 'Multivariable Calculus, Linear Algebra, Thermal Physics, and other topics',
-          description: "Topics in these areas are approached collaboratively. We work through problems together."
-        }
+        // {
+        //   name: 'Multivariable Calculus, Linear Algebra, Thermal Physics, and other topics',
+        //   description: "Topics in these areas are approached collaboratively. We work through problems together."
+        // }
     ],
     'Pricing' : [
         { price : '$160', description : 'One 2-hour session.'},
